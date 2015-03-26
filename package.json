@@ -1,0 +1,8 @@
+
+{
+    "name":         "quasi"
+,   "version":      "0.0.1"
+,   "license":      "MIT"
+,   "repository":   "git@github.com:darobin/quasi.git"
+,   "main":         "./lib/quasi.js"
+}
