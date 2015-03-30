@@ -26,22 +26,22 @@ individually as `quasi-svg/svg` for the SVG part, `quasi-svg/ps` to generate Pos
 * `svg([options])`. Takes some options and generates an SVG string. Same options as `ps()`.
 * `ps([options])` Takes some options and generates a PostScript string. The options are an object 
   with the following keys, all optional:
-** `size` (Number). A scaling factor.
-** `fillPolygons` (Boolean). Fills the polygons.
-** `fillColor` (Boolean). Fill colour is according to polygon type (also sets `fillPolygons`).
-** `rotate` (Boolean). Flip 90°.
-** `magnify` (Number). Magnification factor.
-** `skinnyMidpoint` (Enum) Midpoint type for skinny diamonds, takes enumerated values below.
-** `fatMidpoint` (Enum) Midpoint type for fat diamonds, takes enumerated values below.
-*** `1`: acute angle sides joined
-*** `2`: obtuse angle sides joined
-*** `3`: opposite sides joined to make cross
-*** `4`: all sides joined to make rectangle
-*** `5`: randomly choose 1 or 2
-*** `6`: randomly choose 1, 2, or 4
-** `symmetry` (Int). Degrees of symmetry.
-** `lines` (Int). Number of lines to use.
-** `strokeWidth` (Number). The stroke width for drawing.
+  * `size` (Number). A scaling factor.
+  * `fillPolygons` (Boolean). Fills the polygons.
+  * `fillColor` (Boolean). Fill colour is according to polygon type (also sets `fillPolygons`).
+  * `rotate` (Boolean). Flip 90°.
+  * `magnify` (Number). Magnification factor.
+  * `skinnyMidpoint` (Enum) Midpoint type for skinny diamonds, takes enumerated values below.
+  * `fatMidpoint` (Enum) Midpoint type for fat diamonds, takes enumerated values below.
+    * `1`: acute angle sides joined
+    * `2`: obtuse angle sides joined
+    * `3`: opposite sides joined to make cross
+    * `4`: all sides joined to make rectangle
+    * `5`: randomly choose 1 or 2
+    * `6`: randomly choose 1, 2, or 4
+  * `symmetry` (Int). Degrees of symmetry.
+  * `lines` (Int). Number of lines to use.
+  * `strokeWidth` (Number). The stroke width for drawing.
 * `quasi(options, writer)`. This is the core engine that generates the quasicrystals. It takes the
   same options as the other two plus a `writer`. The writer is basically an object that quasi 
   controls in order to tell it to produce the output. Look at the source of the `svg` and `ps`
