@@ -42,6 +42,8 @@ individually as `quasi-svg/svg` for the SVG part, `quasi-svg/ps` to generate Pos
   * `symmetry` (Int). Degrees of symmetry.
   * `lines` (Int). Number of lines to use.
   * `strokeWidth` (Number). The stroke width for drawing.
+  * `color` (Boolean). To be used with `fillColor`, if set will generate pretty-looking colours for
+    the fills.
 * `quasi(options, writer)`. This is the core engine that generates the quasicrystals. It takes the
   same options as the other two plus a `writer`. The writer is basically an object that quasi 
   controls in order to tell it to produce the output. Look at the source of the `svg` and `ps`
@@ -96,3 +98,8 @@ but GitHub will only let you embed PNG (for good reasons, too):
 
 ![zn80m0.3](./examples/zn80m0.3.png)
 
+### Several variants with color=true
+
+![S7n84M2N2zs03-colour](./examples/S7n84M2N2zs03-colour.png)
+![zm0.6S7-colour](./examples/zm0.6S7-colour.png)
+![zn80m0.3-colour](./examples/zn80m0.3-colour.png)

@@ -1,7 +1,5 @@
 
 TODO:
-    - add support for colours from http://www.physics.emory.edu/faculty/weeks/software/quasi_colour.c
     - browserify the SVG part
-    - add a few demos to the repo
     - npm
     - ship
