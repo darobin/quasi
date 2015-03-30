@@ -61,6 +61,6 @@ but GitHub will only let you embed PNG (for good reasons, too):
 ![M5N5](./examples/M5N5.png)
 ![N5](./examples/N5.png)
 ![S14](./examples/S14.png)
-![zm0.6s7](./examples/zm0.6s7.png)
+![zm0.6S7](./examples/zm0.6S7.png)
 ![zn80m0.3](./examples/zn80m0.3.png)
 
