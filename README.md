@@ -11,11 +11,18 @@ magic (it also looks a lot more like C than the usual JS).
 It should be relatively straightforward to add canvas support as well. If you're interested and have
 questions, don't hesitate to contact me.
 
-## Installation
+## Node Installation
 
 Nothing but the usual:
 
     npm install quasi-svg
+
+## In the browser
+
+Just use one of the files (minified or not) from inside `dist`. Only the SVG module is provided,
+PostScript somehow seemed redundant in the browser. The file contains the minimal Browserify AMD
+code; if it's not loaded through a module system it makes itself available using the `Quasi` global.
+You can then call `Quasi.svg()` with some options.
 
 ## API
 
