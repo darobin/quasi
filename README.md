@@ -89,10 +89,6 @@ but GitHub will only let you embed PNG (for good reasons, too):
 
 ![M5N5](./examples/M5N5.png)
 
-### fatMidpoint=5
-
-![N5](./examples/N5.png)
-
 ### symmetry=14
 
 ![S14](./examples/S14.png)
