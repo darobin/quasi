@@ -49,7 +49,18 @@ individually as `quasi-svg/svg` for the SVG part, `quasi-svg/ps` to generate Pos
 
 ## Examples
 
-Here are a few examples (you can get a fair bit fancier):
+Here are a few examples (you can get a fair bit fancier). Note that they are also available as SVG,
+but GitHub will only let you embed PNG (for good reasons, too):
 
-![The default output](./examples/default.svg)
+![The default output](./examples/default.png)
+![M1N1](./examples/M1N1.png)
+![M1N2](./examples/M1N2.png)
+![M2N1](./examples/M2N1.png)
+![M2N2](./examples/M2N2.png)
+![M3N3](./examples/M3N3.png)
+![M5N5](./examples/M5N5.png)
+![N5](./examples/N5.png)
+![S14](./examples/S14.png)
+![zm0.6s7](./examples/zm0.6s7.png)
+![zn80m0.3](./examples/zn80m0.3.png)
 
