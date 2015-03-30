@@ -1,5 +1,5 @@
 
 TODO:
-    - browserify the SVG part
-    - npm
-    - ship
+    - write a demo for the Web version, with all the options
+    - canvas variant
+    - add browserify/uglify to npm commands
