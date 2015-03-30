@@ -51,5 +51,5 @@ individually as `quasi-svg/svg` for the SVG part, `quasi-svg/ps` to generate Pos
 
 Here are a few examples (you can get a fair bit fancier):
 
-![The default output](./examples/default.svg.gz)
+![The default output](./examples/default.svg)
 
